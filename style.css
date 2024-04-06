@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 50%; /* To make it circular */
+  transition: transform 0.3s ease;
+}
+
+header a:hover img {
+  transform: scale(1.1); /* Increase size by 10% on hover */
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul, .titles ul {
+  column-count: 2;
+}
+
+@media (min-width: 768px) {
+  section {
+      width: 70%;
+      margin: 20px auto;
+  }
+}
+
+.education {
+  background-color: #f6a90c;
+}
+
+.languages {
+  background-color: #4caf50;
+}
+
+.experience {
+  background-color: #2196f3;
+}
+
+.skills {
+  background-color: #9c27b0;
+}
+
+.titles {
+  background-color: #ff5722;
+}
+section.titles ul li img {
+  width: 40px;
+  height: 40px; 
+  border-radius: 0; 
+  margin-right: 10px; 
+  margin-top: 10px;
+}
+
+
